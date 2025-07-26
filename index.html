@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Aztek Tex Mex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background: url('https://aztek-static.vercel.app/logo-bg.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      background: rgba(0,0,0,0.7);
+      padding: 2em;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 10px;
+      margin-top: 2em;
+    }
+    h1 {
+      color: #ffcc00;
+    }
+    .menu-item {
+      margin: 1em 0;
+      padding: 0.5em;
+      border-bottom: 1px solid #fff3;
+    }
+    .price {
+      font-weight: bold;
+    }
+    button {
+      margin-top: 1em;
+      background: #ffcc00;
+      color: black;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌮 Aztek Tex Mex</h1>
+    <p>Wybierz danie i kliknij, by zamówić:</p>
+    <div class="menu-item">
+      🌯 Burrito <span class="price">29,00 zł</span>
+    </div>
+    <div class="menu-item">
+      🥗 Sałatka Cezar z Kurczakiem <span class="price">27,00 zł</span>
+    </div>
+    <div class="menu-item">
+      🧀 Quesadilla <span class="price">38,00 zł</span>
+    </div>
+    <button onclick="window.location.href='https://t.me/AztekTexMexBot'">Zamów przez Telegram</button>
+  </div>
+</body>
+</html>
